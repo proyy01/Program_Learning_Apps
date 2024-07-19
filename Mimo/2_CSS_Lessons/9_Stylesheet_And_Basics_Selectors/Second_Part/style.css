@@ -1,0 +1,70 @@
+/* If we want a style to apply to the entire page, we can use the body selector. */
+/* Setting the background color to blue; inside the body rule sets the background for the entire body. */
+body {
+    background-color: blue;
+}
+
+/* Styles like color: white; when set inside the body rule will apply to all elements inside the body tag. */
+body {
+    background-color: blue;
+    color: white;
+}
+
+/* We can style as many elements as we want as long as we add a space between different rules. */
+h1 {
+    font-family: Helvetica;
+}
+
+/* Using the body tag is one of the easiest ways to add overlapping rules on elements. We'll learn about the other ways soon. */
+
+/* Why do we want to style the body element? */
+/* Answer: To apply style to all elements inside the body element. */
+
+/* What's wrong with this code? */
+body {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    font-family: Helvetica;
+} 
+/* Answer: The h1 selector was missing an opening curly brace { */
+
+/* What happens when we change the background-color of the h1 element? */
+body {
+    color: gray;
+}
+
+h1 {
+    background-color: blue;
+}
+/* Answer: The background color only changes for the h1 elements. */
+
+/* How many rules can we add to our CSS file? */
+/* Answer: As many as we want. */
+
+/* Set the background color of all elements on this webpage to the value azure and the color of the heading to gray. */
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: gray;
+}
+
+/* Add the declaration font-style: italic; to both the rule for h3 and the rule for p tags. */
+h3 {
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+}
+
+/* Set background-color to the value black. */
+body {
+    background-color: black;
+}
+
+/* Second part of the sixth lesson finished! */

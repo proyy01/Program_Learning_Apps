@@ -1,0 +1,31 @@
+/* Inside the CSS file, we specify which element to style with a tag selector. Select the p⁠ tag. */
+/* We then add an opening brace, {, followed by a closing brace, }⁠. */
+/* Now, any declaration we add will apply to all p elements on the webpage. Add the color: blue⁠;⁠ declaration. */
+p {
+    color: blue;
+}
+
+/* When we add p { followed by color: blue;, and then }, we create a CSS rule. */
+
+/* We can add other declarations like background-color: pink as long as they're on another line. */
+p {
+    color: blue;
+    background-color: pink;
+}
+
+/* How can we style a website? */
+/* Answer: By adding a CSS in a style sheet. */
+
+/* What happens when we style elements on a webpage in an included style sheet? */
+/* Answer: Any changes to the style sheet become visible on the webpage. */
+
+/* How can we apply a style to an element? */
+/* Answer: By adding its name, braces, and the style changes in a style sheet. */
+
+/* Select the h1 element in the style sheet. */
+
+h1 {
+    color: red
+}
+
+/* First part of the sixth lesson finished! */
